@@ -76,6 +76,7 @@ Counter({'local_reads': 43526, 'local_writes': 29958, 'global_writes': 23568})
 ```
 
 which demonstrates that there *might* be ways to avoid costly traffic to
-the global UTXO table.
+the global UTXO table. Note that these parameters here are creating highly
+interdependent blocks.
 
 Which is all which I like to point out with this. (So far)
